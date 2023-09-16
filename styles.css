@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(200deg, #ECE8D9, #E3C4A8);
+  padding-top: 20px;
+}
+
+.graphic-container {
+  background-color: #FFFDF6;
+  padding: 0 15px 0 25px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ }
+
+#title {
+  font-family: SEGOE UI;
+  color: #000;
+  text-align: left;
+  padding: 15px 55px 5px;
+}
+
+#description {
+  font-family: sans-serif;
+  color: #343434;
+  text-align: left;
+  padding: 0 55px;
+}
+
+.cell:hover {
+  stroke: black;
+  stroke-width: 1.2;
+}
+
+#tooltip {
+  font-family: Verdana;
+  position: absolute;
+  color: white;
+  background: #343434;
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
